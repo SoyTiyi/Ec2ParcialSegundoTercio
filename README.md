@@ -5,6 +5,9 @@ Parcial segundo corte en donde me toco implemetar las funciones sin y asin
 ## Cedula
 1010127126
 
+## video
+[video](https://web.microsoftstream.com/video/03bc6dfe-b99a-49a1-aade-16ca641b1a4c)
+
 ## Correr proyecto
 
 Primero Clonaremos el repositorio, para eso desde nuestro navegador nos dirigiremos al siguiente link
