@@ -29,14 +29,7 @@ Compilaremos los proyectos taller-cinco y load-balancer con el siguiente comando
  ```sh
 $ mvn package
  ```
-
- Para ejecutar la aplicación. Nos dirigimos a la carpeta Docker-Compose.
-
-```sh
-$ cd Docker-Compose
- ```
-
-Luego ejecutamos el siguiente comando
+Luego ejecutamos el siguiente comando para ejecutar el docker
 
 ```sh
 $ docker build --tag parcialsantiago .
