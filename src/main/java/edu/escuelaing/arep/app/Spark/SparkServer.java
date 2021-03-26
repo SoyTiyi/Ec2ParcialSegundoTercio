@@ -18,6 +18,12 @@ public class SparkServer
             Calculator calculator = new Calculator();
             return calculator.sin(value);
         });
+
+        get("/asin", (req,res) -> {
+            Double value = Double.parseDouble(req.queryParams("value"));
+            Calculator calculator = new Calculator();
+            return calculator.asin(value);
+        });
     }
 
     static int getPort() {

@@ -9,4 +9,10 @@ public class Calculator {
         return "{\"operation\":" +operation + ", \"input\":" + value + ", \"output\":" + result +"}";
     }
 
+    public String asin(Double value){
+        String operation = "asin";
+        Double result = Math.asin(value);
+        return "{\"operation\":" +operation + ", \"input\":" + value + ", \"output\":" + result +"}";
+    }
+
 }
